@@ -1,7 +1,6 @@
 function [W,score,indx]=NNSE(X,c,alpha,beta,lambda, NITER, gamma, maxEpochs, learningRate, error_bp, error_diff_thresh, numberOfHiddenNeure)
 %Reference to be updated: "Neural Networks Embedded Self-Expression with 
-% Adaptive Graph for Unsupervised Feature Selection", Aihong Yuan, Mengbo
-%You, 2021
+% Adaptive Graph for Unsupervised Feature Selection"
 %
 %Input:
 %      X: d by n matrix, n samples with d dimensions.
